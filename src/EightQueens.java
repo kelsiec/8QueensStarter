@@ -11,9 +11,7 @@ public class EightQueens {
     // Takes in the current board state and the number of queens left to place.
     // Returns a solution board if it finds one, else returns null.
     private static char[][] placeQueensHelper(char[][] board, int numQueens) {
-        if (numQueens == 8) {
-            return board;
-        }
+        // TODO: Base case. If 8 queens have been placed, the board is solved. Return it.
 
         for (char[][] option : getValidPlacements(board)) {
             // TODO: Make the recursive sub-call, and return the result if one is returned
