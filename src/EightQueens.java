@@ -14,7 +14,7 @@ public class EightQueens {
         // TODO: Base case. If 8 queens have been placed, the board is solved. Return it.
 
         for (char[][] option : getValidPlacements(board)) {
-            // TODO: Make the recursive sub-call, and return the result if one is returned
+            // TODO: Make the recursive sub-call, and propagate the result if isn't null
         }
         return null;
     }
