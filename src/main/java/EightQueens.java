@@ -1,12 +1,12 @@
 public class EightQueens {
-    // entry point for the code. Returns the solution as a char[][]
+    // entry point for the code. Uses side effects to manipulate the board
     public static void placeQueens(char[][] board) {
         placeQueensHelper(board, 0);
     }
 
     // recursive helper function
     // Takes in the current board state and the number of queens left to place.
-    // Returns a solution board if it finds one, else returns null.
+    // Returns true if it finds a solution, else returns false.
     private static boolean placeQueensHelper(char[][] board, int numQueens) {
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board[i].length; j++) {
@@ -33,7 +33,7 @@ public class EightQueens {
 
         /* Recursive backtracking is the primary objective for this assignment, not 2D array navigation.
         I've given you the check for rows so you have a starting point for the recursive backtracking.
-         I strongly suggest you attempt these TODOs last. */
+         I strongly suggest you wait to attempt these TODOs until last. */
         // TODO: Check lower-left diagonal from the row/col
 
         // TODO: Check lower-right diagonal from the row/col
