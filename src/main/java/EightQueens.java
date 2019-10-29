@@ -21,7 +21,7 @@ public class EightQueens {
     // Returns true if that is a valid place to put a queen, false if it is not valid.
     // Checks that there are no queens in the same row, the same col, or on a diagonal from the cell.
     private static boolean isSafe(char[][] board, int row, int col) {
-        // Check rows
+        // Check rows and columns
         for (int i = 0; i < 8; i++) {
             if (board[row][i] == 'Q') {
                 return false;
