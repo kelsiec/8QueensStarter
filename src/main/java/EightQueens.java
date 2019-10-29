@@ -32,8 +32,13 @@ public class EightQueens {
         }
 
         /* Recursive backtracking is the primary objective for this assignment, not 2D array navigation.
-        I've given you the check for rows so you have a starting point for the recursive backtracking.
-         I strongly suggest you wait to attempt these TODOs until last. */
+            I've given you the check for rows so you have a starting point for the recursive backtracking.
+            I strongly suggest you wait to attempt these TODOs until last.
+
+            However, without these constraints you code won't need to backtrack without these constraints
+            so it would be a good idea to try these or ask for my solution for them to make sure your
+            recursion actually works.
+         */
         // TODO: Check lower-left diagonal from the row/col
 
         // TODO: Check lower-right diagonal from the row/col
